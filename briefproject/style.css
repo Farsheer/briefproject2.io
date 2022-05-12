@@ -1,0 +1,331 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    margin-top: auto;
+}
+
+.pré_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-top;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+table{
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid white;
+    width: 200rem;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+th a{
+    text-decoration: none;
+    color: white;
+}
+th a:hover{
+    color: blue;
+}
+
+
+.image1{
+    width: 100%;
+}
+.image2{
+    margin-top: -700px;
+    width: 450px;
+}
+.titres{
+    margin-top: -500px;
+    margin-left: 200px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 0px;  
+}
+.tete{
+    font-size: 20px;
+    color: black;
+}
+
+.bouton{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.bouton1{
+    border-radius: 30px;   
+    background-color: rgba(14, 90, 161, 0.589);
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 500px;
+
+}
+.bouton2{
+    border-radius: 30px;
+    border: 0.3px solid black;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right:300px;
+    background-color: rgba(255, 255, 255, 0.384);
+}
+h1{
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+h2{
+    font-size: 50px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.bouton_bleu{
+    color: white;
+}
+.bouton_blanc{
+    color: black;
+}
+
+.tittles{
+    margin-top: 300px;
+    text-align: center;
+    line-height: 0%;
+  
+}
+h3{
+    font-size: 30px;
+    color: rgb(46, 134, 130);
+}
+h4{
+    font-size: 20px;
+    color: blue;
+}
+.comment{
+    color: rgb(46, 134, 130);
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.equipe{
+    border-radius: 30px;
+    background-color: rgba(239, 243, 0, 0.411);
+    width: 35%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.bold{
+    font-size: 20px;
+}
+.professionalisme{
+    border-radius: 30px;
+    background-color: rgba(239, 243, 0, 0.411);
+    margin-left: 30px;
+    width: 35%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.accomplissement{
+    border-radius: 30px;
+    background-color: rgba(239, 243, 0, 0.411);
+    margin-left: 30px;
+    width: 35%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.conteneur1{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url("img/Rectangle.png");
+    margin-bottom: 80px;
+}
+.d1{
+    margin-left: 40px;
+    margin-right: 100px;
+    height: 150px;
+    width: auto;
+    
+    overflow: hidden;
+    align-items: center;
+    padding-left: 60px;
+    margin-top: -255px;
+    
+    
+}
+.tof1{
+    width: 15%;
+    height: 150px;
+    border: 1px solid black; 
+  
+}
+.tof2{
+    width: 15%;
+    height: 150px;
+    border: 1px solid black;
+   
+}
+.fleche{
+    display: flex;
+}
+.tof{
+    width: 25%;
+    height: 200px;
+    padding: 15px;
+    
+
+}
+.villes{
+    align-items: center;
+    margin-right: -100px;
+    margin-left: 150px;
+      
+}
+.commentaire{
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+.conteneur2{
+    width: 100%;
+    height: 300px;
+    background: url("img/hotel.png");
+}
+.blanc{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.jaune{
+    font-size: 40px;
+    font-weight: bold;
+    color: yellow;
+    text-align: center;
+}
+.t1{
+    line-height: 5px;
+}
+.bouton-yellow{
+    color: black;
+    margin-right: 300px;
+    margin-left: 600px;
+    border-radius: 30px;
+    background-color: rgba(72, 255, 0, 0.877);
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+nav{
+    width: 60%;
+    height: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+    position: sticky;
+    background-color: aqua;
+}
+nav ul{
+    list-style-type:none;
+}
+nav li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+nav a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+h6{
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    line-height: 0px;
+}
+.R1{
+    text-align: center;
+    line-height: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ 
+input[type="text"]{
+    width: 700px;
+    height: 20px;
+    margin-left: -20px;
+    margin-right: 20px;
+    margin-top: -50px;
+    border: 1px solid transparent;
+    border-radius: 10px; ;
+    background-color: aqua;
+}
+.search{
+    width: 50%;
+    height: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;  
+}
+input{
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 10px;
+    width: 300px;
+    margin-top:-500px;
+}
+.date{
+    width: 500px;
+    height: 50px;
+    margin-left: 1000px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+input[type="number"]{
+    margin-top: 8px;
+    position: inherit;
+    margin-right: 1000px;
+    margin-left: 50px;
+    
+}
+.element{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*.dot{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}*/
